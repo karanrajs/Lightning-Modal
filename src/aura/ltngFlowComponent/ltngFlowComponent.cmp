@@ -1,0 +1,4 @@
+<aura:component access="global" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:handler name="init" value="{!this}" action="{!c.init}" /> 
+    <lightning:flow aura:id="ContactsurveyFlow" /> 
+</aura:component>

@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:appHostable" access="global" >
+	 <lightning:overlayLibrary aura:id="overlayLib"/>
+	 <lightning:button iconName="utility:flow" label="Open Survery Flow" onclick="{!c.handleShowModal}"/>
+</aura:component>
